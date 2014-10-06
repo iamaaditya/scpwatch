@@ -6,6 +6,12 @@ You can simply run scpwatch with the follwing parameteres and it will send the f
 ./scpwatch ./target/test.jar user@example.com
 ```
 
+Directories also can be watched:
+
+```
+./scpwatch ./target user@example.com
+```
+
 You may specify the path in which the file should be copied on the server as you do with scp command:
 
 ```
